@@ -2,12 +2,12 @@
   "name": "website",
   "version": "0.0.0",
   "engines": {
-    "node": "10.x",
-    "npm": "6.x"
+    "node": "10.14.0",
+    "npm": "6.4.1"
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --ssl",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
